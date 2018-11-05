@@ -1,0 +1,150 @@
+2018-10-30 10:09:50,637 - helpers - INFO - Entering `run_gridsearch` for processing...
+2018-10-30 10:09:50,637 - helpers - INFO - Entering `_run_fn_gridsearch` for processing...
+2018-10-30 10:09:50,637 - helpers - INFO - Initializing NN search for cardio...
+2018-10-30 10:09:50,637 - helpers - INFO - Entering `load_dataset_df` for processing...
+2018-10-30 10:09:50,637 - helpers - INFO - Entering `load_dataset_csv` for processing...
+2018-10-30 10:09:50,638 - helpers - INFO - Entering `qualify_full_filepath` for processing...
+2018-10-30 10:09:50,638 - helpers - INFO - Exiting processing for `qualify_full_filepath`
+2018-10-30 10:09:50,675 - helpers - INFO - Exiting processing for `load_dataset_csv`
+2018-10-30 10:09:50,747 - helpers - INFO - Exiting processing for `load_dataset_df`
+2018-10-30 10:09:50,747 - helpers - INFO - Entering `split_test_train` for processing...
+2018-10-30 10:09:50,753 - helpers - INFO - Exiting processing for `split_test_train`
+2018-10-30 10:09:50,754 - helpers - INFO - Entering `scale_test_train` for processing...
+2018-10-30 10:09:50,835 - helpers - INFO - Exiting processing for `scale_test_train`
+2018-10-30 10:09:50,835 - helpers - INFO - Entering `search_best_params` for processing...
+2018-10-30 10:09:50,837 - nn - INFO - Preparing to run 256 different hidden layer configurations.
+2018-10-30 10:09:50,837 - nn - INFO - Hidden Layers: [(6, 2, 6, 2), (10, 2, 6, 2), (10, 2, 10, 2), (10, 2, 10, 6), (14, 2, 6, 2), (14, 2, 10, 2), (14, 2, 10, 6), (14, 2, 14, 2), (14, 2, 14, 6), (14, 2, 14, 10), (14, 6, 6, 2), (14, 6, 10, 2), (14, 6, 10, 6), (14, 6, 14, 2), (14, 6, 14, 6), (14, 6, 14, 10), (18, 2, 6, 2), (18, 2, 10, 2), (18, 2, 10, 6), (18, 2, 14, 2), (18, 2, 14, 6), (18, 2, 14, 10), (18, 2, 18, 2), (18, 2, 18, 6), (18, 2, 18, 10), (18, 2, 18, 14), (18, 6, 6, 2), (18, 6, 10, 2), (18, 6, 10, 6), (18, 6, 14, 2), (18, 6, 14, 6), (18, 6, 14, 10), (18, 6, 18, 2), (18, 6, 18, 6), (18, 6, 18, 10), (18, 6, 18, 14), (22, 2, 6, 2), (22, 2, 10, 2), (22, 2, 10, 6), (22, 2, 14, 2), (22, 2, 14, 6), (22, 2, 14, 10), (22, 2, 18, 2), (22, 2, 18, 6), (22, 2, 18, 10), (22, 2, 18, 14), (22, 2, 22, 2), (22, 2, 22, 6), (22, 2, 22, 10), (22, 2, 22, 14), (22, 2, 22, 18), (22, 6, 6, 2), (22, 6, 10, 2), (22, 6, 10, 6), (22, 6, 14, 2), (22, 6, 14, 6), (22, 6, 14, 10), (22, 6, 18, 2), (22, 6, 18, 6), (22, 6, 18, 10), (22, 6, 18, 14), (22, 6, 22, 2), (22, 6, 22, 6), (22, 6, 22, 10), (22, 6, 22, 14), (22, 6, 22, 18), (22, 10, 6, 2), (22, 10, 10, 2), (22, 10, 10, 6), (22, 10, 14, 2), (22, 10, 14, 6), (22, 10, 14, 10), (22, 10, 18, 2), (22, 10, 18, 6), (22, 10, 18, 10), (22, 10, 18, 14), (22, 10, 22, 2), (22, 10, 22, 6), (22, 10, 22, 10), (22, 10, 22, 14), (22, 10, 22, 18), (26, 2, 6, 2), (26, 2, 10, 2), (26, 2, 10, 6), (26, 2, 14, 2), (26, 2, 14, 6), (26, 2, 14, 10), (26, 2, 18, 2), (26, 2, 18, 6), (26, 2, 18, 10), (26, 2, 18, 14), (26, 2, 22, 2), (26, 2, 22, 6), (26, 2, 22, 10), (26, 2, 22, 14), (26, 2, 22, 18), (26, 2, 26, 2), (26, 2, 26, 6), (26, 2, 26, 10), (26, 2, 26, 14), (26, 2, 26, 18), (26, 2, 26, 22), (26, 6, 6, 2), (26, 6, 10, 2), (26, 6, 10, 6), (26, 6, 14, 2), (26, 6, 14, 6), (26, 6, 14, 10), (26, 6, 18, 2), (26, 6, 18, 6), (26, 6, 18, 10), (26, 6, 18, 14), (26, 6, 22, 2), (26, 6, 22, 6), (26, 6, 22, 10), (26, 6, 22, 14), (26, 6, 22, 18), (26, 6, 26, 2), (26, 6, 26, 6), (26, 6, 26, 10), (26, 6, 26, 14), (26, 6, 26, 18), (26, 6, 26, 22), (26, 10, 6, 2), (26, 10, 10, 2), (26, 10, 10, 6), (26, 10, 14, 2), (26, 10, 14, 6), (26, 10, 14, 10), (26, 10, 18, 2), (26, 10, 18, 6), (26, 10, 18, 10), (26, 10, 18, 14), (26, 10, 22, 2), (26, 10, 22, 6), (26, 10, 22, 10), (26, 10, 22, 14), (26, 10, 22, 18), (26, 10, 26, 2), (26, 10, 26, 6), (26, 10, 26, 10), (26, 10, 26, 14), (26, 10, 26, 18), (26, 10, 26, 22), (30, 2, 6, 2), (30, 2, 10, 2), (30, 2, 10, 6), (30, 2, 14, 2), (30, 2, 14, 6), (30, 2, 14, 10), (30, 2, 18, 2), (30, 2, 18, 6), (30, 2, 18, 10), (30, 2, 18, 14), (30, 2, 22, 2), (30, 2, 22, 6), (30, 2, 22, 10), (30, 2, 22, 14), (30, 2, 22, 18), (30, 2, 26, 2), (30, 2, 26, 6), (30, 2, 26, 10), (30, 2, 26, 14), (30, 2, 26, 18), (30, 2, 26, 22), (30, 2, 30, 2), (30, 2, 30, 6), (30, 2, 30, 10), (30, 2, 30, 14), (30, 2, 30, 18), (30, 2, 30, 22), (30, 2, 30, 26), (30, 6, 6, 2), (30, 6, 10, 2), (30, 6, 10, 6), (30, 6, 14, 2), (30, 6, 14, 6), (30, 6, 14, 10), (30, 6, 18, 2), (30, 6, 18, 6), (30, 6, 18, 10), (30, 6, 18, 14), (30, 6, 22, 2), (30, 6, 22, 6), (30, 6, 22, 10), (30, 6, 22, 14), (30, 6, 22, 18), (30, 6, 26, 2), (30, 6, 26, 6), (30, 6, 26, 10), (30, 6, 26, 14), (30, 6, 26, 18), (30, 6, 26, 22), (30, 6, 30, 2), (30, 6, 30, 6), (30, 6, 30, 10), (30, 6, 30, 14), (30, 6, 30, 18), (30, 6, 30, 22), (30, 6, 30, 26), (30, 10, 6, 2), (30, 10, 10, 2), (30, 10, 10, 6), (30, 10, 14, 2), (30, 10, 14, 6), (30, 10, 14, 10), (30, 10, 18, 2), (30, 10, 18, 6), (30, 10, 18, 10), (30, 10, 18, 14), (30, 10, 22, 2), (30, 10, 22, 6), (30, 10, 22, 10), (30, 10, 22, 14), (30, 10, 22, 18), (30, 10, 26, 2), (30, 10, 26, 6), (30, 10, 26, 10), (30, 10, 26, 14), (30, 10, 26, 18), (30, 10, 26, 22), (30, 10, 30, 2), (30, 10, 30, 6), (30, 10, 30, 10), (30, 10, 30, 14), (30, 10, 30, 18), (30, 10, 30, 22), (30, 10, 30, 26), (30, 14, 6, 2), (30, 14, 10, 2), (30, 14, 10, 6), (30, 14, 14, 2), (30, 14, 14, 6), (30, 14, 14, 10), (30, 14, 18, 2), (30, 14, 18, 6), (30, 14, 18, 10), (30, 14, 18, 14), (30, 14, 22, 2), (30, 14, 22, 6), (30, 14, 22, 10), (30, 14, 22, 14), (30, 14, 22, 18), (30, 14, 26, 2), (30, 14, 26, 6), (30, 14, 26, 10), (30, 14, 26, 14), (30, 14, 26, 18), (30, 14, 26, 22), (30, 14, 30, 2), (30, 14, 30, 6), (30, 14, 30, 10), (30, 14, 30, 14), (30, 14, 30, 18), (30, 14, 30, 22), (30, 14, 30, 26)]
+2018-10-30 10:09:50,838 - helpers - INFO - Entering `search_model_param_space` for processing...
+2018-10-30 10:09:50,838 - helpers - INFO - Found 2 unique classes, using recall for scoring
+2018-10-30 10:31:59,782 - helpers - INFO - Exiting processing for `search_model_param_space`
+2018-10-30 10:31:59,782 - helpers - INFO - Exiting processing for `search_best_params`
+2018-10-30 10:31:59,782 - helpers - INFO - Entering `load_best_model_json` for processing...
+2018-10-30 10:31:59,782 - helpers - INFO - Entering `qualify_full_filepath` for processing...
+2018-10-30 10:31:59,782 - helpers - INFO - Exiting processing for `qualify_full_filepath`
+2018-10-30 10:31:59,783 - helpers - INFO - Exiting processing for `load_best_model_json`
+2018-10-30 10:31:59,786 - helpers - INFO - Entering `update_best_model_json` for processing...
+2018-10-30 10:31:59,786 - helpers - INFO - Entering `qualify_full_filepath` for processing...
+2018-10-30 10:31:59,786 - helpers - INFO - Exiting processing for `qualify_full_filepath`
+2018-10-30 10:31:59,787 - helpers - INFO - Exiting processing for `update_best_model_json`
+******************** Running NN GridSearch for cardio ********************
+0    77.8
+1    22.2
+Name: class, dtype: float64
+
+********** Best fit NN model **********
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(30, 6, 6, 2), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=5000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=42, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=False,
+       warm_start=False)
+
+Score of best fit on test is: 0.87234
+
+********** Top N model params **********
+01. {'hidden_layer_sizes': (30, 6, 6, 2), 'max_iter': 5000} == 0.88323
+02. {'hidden_layer_sizes': (30, 10, 22, 2), 'max_iter': 5000} == 0.87534
+03. {'hidden_layer_sizes': (18, 2, 14, 6), 'max_iter': 5000} == 0.86196
+04. {'hidden_layer_sizes': (26, 2, 14, 10), 'max_iter': 5000} == 0.85939
+05. {'hidden_layer_sizes': (30, 14, 18, 6), 'max_iter': 5000} == 0.85685
+06. {'hidden_layer_sizes': (30, 6, 26, 10), 'max_iter': 5000} == 0.85678
+07. {'hidden_layer_sizes': (26, 10, 26, 14), 'max_iter': 5000} == 0.85677
+08. {'hidden_layer_sizes': (18, 2, 10, 6), 'max_iter': 5000} == 0.85667
+09. {'hidden_layer_sizes': (26, 10, 6, 2), 'max_iter': 5000} == 0.85412
+10. {'hidden_layer_sizes': (18, 2, 18, 2), 'max_iter': 5000} == 0.85401
+11. {'hidden_layer_sizes': (26, 6, 10, 2), 'max_iter': 5000} == 0.85399
+12. {'hidden_layer_sizes': (18, 2, 6, 2), 'max_iter': 5000} == 0.84875
+13. {'hidden_layer_sizes': (26, 10, 18, 14), 'max_iter': 5000} == 0.84872
+14. {'hidden_layer_sizes': (30, 6, 22, 2), 'max_iter': 5000} == 0.8487
+15. {'hidden_layer_sizes': (30, 10, 30, 18), 'max_iter': 5000} == 0.84625
+2018-10-30 10:31:59,814 - helpers - INFO - Initializing NN search for pulsar...
+2018-10-30 10:31:59,814 - helpers - INFO - Entering `load_dataset_df` for processing...
+2018-10-30 10:31:59,814 - helpers - INFO - Entering `load_dataset_csv` for processing...
+2018-10-30 10:31:59,814 - helpers - INFO - Entering `qualify_full_filepath` for processing...
+2018-10-30 10:31:59,814 - helpers - INFO - Exiting processing for `qualify_full_filepath`
+2018-10-30 10:31:59,982 - helpers - INFO - Exiting processing for `load_dataset_csv`
+2018-10-30 10:32:00,164 - helpers - INFO - Exiting processing for `load_dataset_df`
+2018-10-30 10:32:00,164 - helpers - INFO - Entering `split_test_train` for processing...
+2018-10-30 10:32:00,175 - helpers - INFO - Exiting processing for `split_test_train`
+2018-10-30 10:32:00,176 - helpers - INFO - Entering `scale_test_train` for processing...
+2018-10-30 10:32:00,235 - helpers - INFO - Exiting processing for `scale_test_train`
+2018-10-30 10:32:00,235 - helpers - INFO - Entering `search_best_params` for processing...
+2018-10-30 10:32:00,237 - nn - INFO - Preparing to run 222 different hidden layer configurations.
+2018-10-30 10:32:00,237 - nn - INFO - Hidden Layers: [(4, 2, 4, 2), (5, 2, 4, 2), (5, 2, 5, 2), (5, 2, 5, 4), (7, 2, 4, 2), (7, 2, 5, 2), (7, 2, 5, 4), (7, 2, 7, 2), (7, 2, 7, 4), (7, 2, 7, 5), (8, 2, 4, 2), (8, 2, 5, 2), (8, 2, 5, 4), (8, 2, 7, 2), (8, 2, 7, 4), (8, 2, 7, 5), (8, 2, 8, 2), (8, 2, 8, 4), (8, 2, 8, 5), (8, 2, 8, 7), (8, 4, 4, 2), (8, 4, 5, 2), (8, 4, 5, 4), (8, 4, 7, 2), (8, 4, 7, 4), (8, 4, 7, 5), (8, 4, 8, 2), (8, 4, 8, 4), (8, 4, 8, 5), (8, 4, 8, 7), (10, 2, 4, 2), (10, 2, 5, 2), (10, 2, 5, 4), (10, 2, 7, 2), (10, 2, 7, 4), (10, 2, 7, 5), (10, 2, 8, 2), (10, 2, 8, 4), (10, 2, 8, 5), (10, 2, 8, 7), (10, 2, 10, 2), (10, 2, 10, 4), (10, 2, 10, 5), (10, 2, 10, 7), (10, 2, 10, 8), (10, 4, 4, 2), (10, 4, 5, 2), (10, 4, 5, 4), (10, 4, 7, 2), (10, 4, 7, 4), (10, 4, 7, 5), (10, 4, 8, 2), (10, 4, 8, 4), (10, 4, 8, 5), (10, 4, 8, 7), (10, 4, 10, 2), (10, 4, 10, 4), (10, 4, 10, 5), (10, 4, 10, 7), (10, 4, 10, 8), (10, 5, 4, 2), (10, 5, 5, 2), (10, 5, 5, 4), (10, 5, 7, 2), (10, 5, 7, 4), (10, 5, 7, 5), (10, 5, 8, 2), (10, 5, 8, 4), (10, 5, 8, 5), (10, 5, 8, 7), (10, 5, 10, 2), (10, 5, 10, 4), (10, 5, 10, 5), (10, 5, 10, 7), (10, 5, 10, 8), (11, 2, 4, 2), (11, 2, 5, 2), (11, 2, 5, 4), (11, 2, 7, 2), (11, 2, 7, 4), (11, 2, 7, 5), (11, 2, 8, 2), (11, 2, 8, 4), (11, 2, 8, 5), (11, 2, 8, 7), (11, 2, 10, 2), (11, 2, 10, 4), (11, 2, 10, 5), (11, 2, 10, 7), (11, 2, 10, 8), (11, 2, 11, 2), (11, 2, 11, 4), (11, 2, 11, 5), (11, 2, 11, 7), (11, 2, 11, 8), (11, 2, 11, 10), (11, 4, 4, 2), (11, 4, 5, 2), (11, 4, 5, 4), (11, 4, 7, 2), (11, 4, 7, 4), (11, 4, 7, 5), (11, 4, 8, 2), (11, 4, 8, 4), (11, 4, 8, 5), (11, 4, 8, 7), (11, 4, 10, 2), (11, 4, 10, 4), (11, 4, 10, 5), (11, 4, 10, 7), (11, 4, 10, 8), (11, 4, 11, 2), (11, 4, 11, 4), (11, 4, 11, 5), (11, 4, 11, 7), (11, 4, 11, 8), (11, 4, 11, 10), (11, 5, 4, 2), (11, 5, 5, 2), (11, 5, 5, 4), (11, 5, 7, 2), (11, 5, 7, 4), (11, 5, 7, 5), (11, 5, 8, 2), (11, 5, 8, 4), (11, 5, 8, 5), (11, 5, 8, 7), (11, 5, 10, 2), (11, 5, 10, 4), (11, 5, 10, 5), (11, 5, 10, 7), (11, 5, 10, 8), (11, 5, 11, 2), (11, 5, 11, 4), (11, 5, 11, 5), (11, 5, 11, 7), (11, 5, 11, 8), (11, 5, 11, 10), (12, 2, 4, 2), (12, 2, 5, 2), (12, 2, 5, 4), (12, 2, 7, 2), (12, 2, 7, 4), (12, 2, 7, 5), (12, 2, 8, 2), (12, 2, 8, 4), (12, 2, 8, 5), (12, 2, 8, 7), (12, 2, 10, 2), (12, 2, 10, 4), (12, 2, 10, 5), (12, 2, 10, 7), (12, 2, 10, 8), (12, 2, 11, 2), (12, 2, 11, 4), (12, 2, 11, 5), (12, 2, 11, 7), (12, 2, 11, 8), (12, 2, 11, 10), (12, 2, 12, 2), (12, 2, 12, 4), (12, 2, 12, 5), (12, 2, 12, 7), (12, 2, 12, 8), (12, 2, 12, 10), (12, 2, 12, 11), (12, 4, 4, 2), (12, 4, 5, 2), (12, 4, 5, 4), (12, 4, 7, 2), (12, 4, 7, 4), (12, 4, 7, 5), (12, 4, 8, 2), (12, 4, 8, 4), (12, 4, 8, 5), (12, 4, 8, 7), (12, 4, 10, 2), (12, 4, 10, 4), (12, 4, 10, 5), (12, 4, 10, 7), (12, 4, 10, 8), (12, 4, 11, 2), (12, 4, 11, 4), (12, 4, 11, 5), (12, 4, 11, 7), (12, 4, 11, 8), (12, 4, 11, 10), (12, 4, 12, 2), (12, 4, 12, 4), (12, 4, 12, 5), (12, 4, 12, 7), (12, 4, 12, 8), (12, 4, 12, 10), (12, 4, 12, 11), (12, 5, 4, 2), (12, 5, 5, 2), (12, 5, 5, 4), (12, 5, 7, 2), (12, 5, 7, 4), (12, 5, 7, 5), (12, 5, 8, 2), (12, 5, 8, 4), (12, 5, 8, 5), (12, 5, 8, 7), (12, 5, 10, 2), (12, 5, 10, 4), (12, 5, 10, 5), (12, 5, 10, 7), (12, 5, 10, 8), (12, 5, 11, 2), (12, 5, 11, 4), (12, 5, 11, 5), (12, 5, 11, 7), (12, 5, 11, 8), (12, 5, 11, 10), (12, 5, 12, 2), (12, 5, 12, 4), (12, 5, 12, 5), (12, 5, 12, 7), (12, 5, 12, 8), (12, 5, 12, 10), (12, 5, 12, 11)]
+2018-10-30 10:32:00,260 - helpers - INFO - Entering `search_model_param_space` for processing...
+2018-10-30 10:32:00,261 - helpers - INFO - Found 2 unique classes, using recall for scoring
+2018-10-30 11:46:22,418 - helpers - INFO - Exiting processing for `search_model_param_space`
+2018-10-30 11:46:22,419 - helpers - INFO - Exiting processing for `search_best_params`
+2018-10-30 11:46:22,419 - helpers - INFO - Entering `load_best_model_json` for processing...
+2018-10-30 11:46:22,419 - helpers - INFO - Entering `qualify_full_filepath` for processing...
+2018-10-30 11:46:22,419 - helpers - INFO - Exiting processing for `qualify_full_filepath`
+2018-10-30 11:46:22,420 - helpers - INFO - Exiting processing for `load_best_model_json`
+2018-10-30 11:46:22,424 - helpers - INFO - Entering `update_best_model_json` for processing...
+2018-10-30 11:46:22,424 - helpers - INFO - Entering `qualify_full_filepath` for processing...
+2018-10-30 11:46:22,424 - helpers - INFO - Exiting processing for `qualify_full_filepath`
+2018-10-30 11:46:22,425 - helpers - INFO - Exiting processing for `update_best_model_json`
+******************** Running NN GridSearch for pulsar ********************
+0    90.8
+1     9.2
+Name: class, dtype: float64
+
+********** Best fit NN model **********
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(4, 2, 4, 2), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=5000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=42, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=False,
+       warm_start=False)
+
+Score of best fit on test is: 0.8628
+
+********** Top N model params **********
+01. {'hidden_layer_sizes': (4, 2, 4, 2), 'max_iter': 5000} == 0.86192
+02. {'hidden_layer_sizes': (12, 4, 12, 11), 'max_iter': 5000} == 0.85582
+03. {'hidden_layer_sizes': (8, 2, 7, 5), 'max_iter': 5000} == 0.85582
+04. {'hidden_layer_sizes': (11, 2, 7, 2), 'max_iter': 5000} == 0.85506
+05. {'hidden_layer_sizes': (12, 5, 11, 8), 'max_iter': 5000} == 0.8543
+06. {'hidden_layer_sizes': (12, 4, 10, 4), 'max_iter': 5000} == 0.85049
+07. {'hidden_layer_sizes': (12, 4, 4, 2), 'max_iter': 5000} == 0.85048
+08. {'hidden_layer_sizes': (10, 4, 8, 2), 'max_iter': 5000} == 0.84895
+09. {'hidden_layer_sizes': (10, 4, 8, 7), 'max_iter': 5000} == 0.84821
+10. {'hidden_layer_sizes': (8, 2, 7, 4), 'max_iter': 5000} == 0.84743
+11. {'hidden_layer_sizes': (12, 5, 11, 2), 'max_iter': 5000} == 0.84667
+12. {'hidden_layer_sizes': (12, 4, 10, 8), 'max_iter': 5000} == 0.84666
+13. {'hidden_layer_sizes': (12, 5, 12, 7), 'max_iter': 5000} == 0.8459
+14. {'hidden_layer_sizes': (10, 4, 7, 2), 'max_iter': 5000} == 0.84589
+15. {'hidden_layer_sizes': (12, 5, 12, 5), 'max_iter': 5000} == 0.84515
+2018-10-30 11:46:22,430 - helpers - INFO - Exiting processing for `_run_fn_gridsearch`
+2018-10-30 11:46:22,431 - helpers - INFO - Exiting processing for `run_gridsearch`
+2018-10-30 11:46:22,431 - helpers - INFO - Entering `plot_confusion_matrix` for processing...
+2018-10-30 11:46:22,431 - helpers - INFO - Entering `_plot_confusion_matrix` for processing...
+2018-10-30 11:46:22,431 - helpers - INFO - Entering `load_best_model_json` for processing...
+2018-10-30 11:46:22,431 - helpers - INFO - Entering `qualify_full_filepath` for processing...
+2018-10-30 11:46:22,431 - helpers - INFO - Exiting processing for `qualify_full_filepath`
+2018-10-30 11:46:22,432 - helpers - INFO - Exiting processing for `load_best_model_json`
+2018-10-30 11:46:22,651 - helpers - INFO - Entering `load_dataset_df` for processing...
+2018-10-30 11:46:22,652 - helpers - INFO - Entering `load_dataset_csv` for processing...
+2018-10-30 11:46:22,652 - helpers - INFO - Entering `qualify_full_filepath` for processing...
+2018-10-30 11:46:22,652 - helpers - INFO - Exiting processing for `qualify_full_filepath`
+2018-10-30 11:46:22,689 - helpers - INFO - Exiting processing for `load_dataset_csv`
+2018-10-30 11:46:22,775 - helpers - INFO - Exiting processing for `load_dataset_df`
+2018-10-30 11:46:22,776 - helpers - INFO - Entering `split_test_train` for processing...
+2018-10-30 11:46:22,781 - helpers - INFO - Exiting processing for `split_test_train`
+2018-10-30 11:46:22,781 - helpers - INFO - Entering `scale_test_train` for processing...
+2018-10-30 11:46:22,885 - helpers - INFO - Exiting processing for `scale_test_train`
+2018-10-30 11:46:22,886 - helpers - INFO - Plotting matrix for cardio with NN...
+2018-10-30 11:46:24,366 - helpers - INFO - Entering `load_dataset_df` for processing...
+2018-10-30 11:46:24,366 - helpers - INFO - Entering `load_dataset_csv` for processing...
+2018-10-30 11:46:24,366 - helpers - INFO - Entering `qualify_full_filepath` for processing...
+2018-10-30 11:46:24,367 - helpers - INFO - Exiting processing for `qualify_full_filepath`
+2018-10-30 11:46:24,577 - helpers - INFO - Exiting processing for `load_dataset_csv`
+2018-10-30 11:46:25,003 - helpers - INFO - Exiting processing for `load_dataset_df`
+2018-10-30 11:46:25,004 - helpers - INFO - Entering `split_test_train` for processing...
+2018-10-30 11:46:25,017 - helpers - INFO - Exiting processing for `split_test_train`
+2018-10-30 11:46:25,018 - helpers - INFO - Entering `scale_test_train` for processing...
+2018-10-30 11:46:25,092 - helpers - INFO - Exiting processing for `scale_test_train`
+2018-10-30 11:46:25,092 - helpers - INFO - Plotting matrix for pulsar with NN...
+2018-10-30 11:46:38,014 - helpers - INFO - Exiting processing for `_plot_confusion_matrix`
+2018-10-30 11:46:38,014 - helpers - INFO - Exiting processing for `plot_confusion_matrix`
